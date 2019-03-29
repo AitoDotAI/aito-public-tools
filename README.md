@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/AitoDotAI/aito-tools.svg?style=svg)](https://circleci.com/gh/AitoDotAI/aito-tools)
+
 # Aito tools
 
 Collection of scripts and tools useful for Aito users.
