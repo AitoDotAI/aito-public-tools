@@ -1,0 +1,11 @@
+{
+  "offset" : 0,
+  "total" : 2,
+  "hits" : [ {
+    "name" : "Milk",
+    "price" : 1.1
+  }, {
+    "name" : "Sugar",
+    "price" : 0.7
+  } ]
+}

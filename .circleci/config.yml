@@ -1,0 +1,25 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/repo
+
+    docker:
+      - image: circleci/node:10
+
+    environment:
+      - CI: "true"
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install jq
+          command: |
+            curl -o jq https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
+            export PATH=~/repo:$PATH
+
+      - run:
+          name: Test upload-file.sh
+          command: |
+            API_KEY=$AITO_RW_API_KEY bash .circleci/test-upload-file.sh

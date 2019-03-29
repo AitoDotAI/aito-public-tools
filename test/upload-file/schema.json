@@ -1,0 +1,11 @@
+{
+  "schema": {
+    "products": {
+      "type": "table",
+      "columns": {
+        "name": { "type": "String" },
+        "price": { "type": "Decimal" }
+      }
+    }
+  }
+}
