@@ -31,3 +31,17 @@ In the example we upload products to Aito.
     This would upload products.ndjson to a `products` table in https://my-aito-env.api.aito.ai.
     See the example [products.ndjson](test/upload-file/products.ndjson) contents.
 
+
+
+## [copy-table.sh](./copy-table.sh)
+
+Outputs all objects from Aito table to stdout as ndjson. Requires [jq](https://stedolan.github.io/jq/) command-line tool.
+The table is paginated through with the Search endpoint.
+
+**Example usage:**
+
+
+```bash
+export API_KEY=YOUR_KEY
+copy-table.sh your-env-name table > table.ndjson
+```
