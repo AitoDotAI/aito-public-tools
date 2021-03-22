@@ -1,3 +1,5 @@
+**NOTE: This repository is not actively maintained. These features are covered by the [Aito Python SDK and CLI](https://aito-python-sdk.readthedocs.io/en/stable/cli.html).**
+
 [![CircleCI](https://circleci.com/gh/AitoDotAI/aito-tools.svg?style=svg)](https://circleci.com/gh/AitoDotAI/aito-tools)
 
 # Aito tools
